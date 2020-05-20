@@ -5,6 +5,14 @@
  * The function should take in an array and a search value and work as intended.
  */
 
+
 const myLastIndexOf = (arr, searchVal) => {
 	/* Your implementation goes here */
 }
+
+let arr = "i am fortune ikechi.";
+
+let searchVal = console.log;
+
+searchVal(arr.lastIndexOf("e"));
+
