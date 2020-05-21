@@ -8,3 +8,16 @@
 const myIndexOf = (arr, searchVal) => {
 	/* Your implementation goes here */
 }
+
+const myLastIndexOf = (arr, searchVal) => {
+  /* Your implementation goes here */
+  let valIndex = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == searchVal) {
+      valIndex = i;
+    } else {
+		return -1;
+	}
+  }
+  return valIndex;
+};
