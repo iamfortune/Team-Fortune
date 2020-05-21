@@ -15,9 +15,7 @@ const myLastIndexOf = (arr, searchVal) => {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] == searchVal) {
       valIndex = i;
-    } else {
-		return -1;
-	}
+    } 
   }
   return valIndex;
 };
