@@ -6,9 +6,9 @@
  */
 
 
-const myLastIndexOf = (arr, searchVal) => {
-	/* Your implementation goes here */
-}
+// const myLastIndexOf = (arr, searchVal) => {
+// 	/* Your implementation goes here */
+// }
 
 let arr = "i am fortune ikechi.";
 
