@@ -7,4 +7,13 @@
 */
 const myIndexOf = (arr, searchVal) => {
 	/* Your implementation goes here */
-}
+	 let valIndex = 0;
+	for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === searchVal) {
+		 return i;
+    } 
+  } 
+  return valIndex;
+} 
+
+console.log(myIndexOf(["red",]))
