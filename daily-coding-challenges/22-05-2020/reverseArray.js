@@ -13,12 +13,12 @@ const newArray = [];
 
 
 const reverseArray = (arr) => {
-	/* Your implementation goes here */
-	 let newArray = [];
-   for (let i = arr.length - 1; i >= 0; i--) {
-     newArray.push(arr[i]);
-   }
-   return newArray;
+  /* Your implementation goes here */
+  let newArray = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    newArray.push(arr[i]);
+  }
+  return newArray;
 }
 
 console.log(reverseArray(array1));
