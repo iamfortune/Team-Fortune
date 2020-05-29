@@ -4,7 +4,7 @@
 */
 const findGreatestNumInArray = (arr) => {
 	/* Your implementation goes here */
-	if (arr.legnth ==1) {return arr[0]}
+	if (arr.length ==1) {return arr[0]}
 	let maxNum = arr[0];
 	for(let i = 1; i < arr.length; i++) {
 		if(arr[i] > maxNum){
