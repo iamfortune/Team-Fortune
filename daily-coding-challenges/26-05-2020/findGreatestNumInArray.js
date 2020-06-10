@@ -3,6 +3,9 @@
  * Example: findGreatestNumInArray([12, 8, -3, 4]) should return 12;
 */
 const findGreatestNumInArray = (arr) => {
+	if(!arr) {
+	return null
+	}
 	/* Your implementation goes here */
 	if (arr.length ==1) {return arr[0]}
 	let maxNum = arr[0];
