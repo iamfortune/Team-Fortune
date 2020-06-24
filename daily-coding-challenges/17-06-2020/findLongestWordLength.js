@@ -11,8 +11,18 @@
 
 const findLongestWordLength = (str) => {
 	/* Your implementation goes here */
-	return 0;
-};
+if (!str) {
+   return 0;
+}	
+ let strSplit = str.split(" ");
+  let longestWord = 0;
+  for (let i = 0; i < strSplit.length; i++) {
+    if (strSplit[i].length > longestWord) {
+      longestWord = strSplit[i].length;
+    }
+  }
+  return longestWord;
+}
 
 /** Sample Tests
  * They should all print true if your code is correct
