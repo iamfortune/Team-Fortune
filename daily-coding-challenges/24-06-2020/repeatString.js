@@ -13,6 +13,9 @@
 
 const repeatStringNumTimes = (str, num) => {
 	/* Your implementation goes here */
+	if(num === 0) {
+		return null
+	}
 	if(num > 0) 
 	return str.repeat(num);
 	else 
@@ -25,3 +28,4 @@ const repeatStringNumTimes = (str, num) => {
 console.log(repeatStringNumTimes('abc', 1) === 'abc');
 console.log(repeatStringNumTimes('*', 5) === '*****');
 console.log(repeatStringNumTimes('repeat', -1) === '');
+console.log(repeatStringNumTimes('abc', 0));
