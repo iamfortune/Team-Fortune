@@ -13,7 +13,10 @@
 
 const repeatStringNumTimes = (str, num) => {
 	/* Your implementation goes here */
-	return str;
+	if(num > 0) 
+	return str.repeat(num);
+	else 
+	return "";
 }
 
 /** Sample Tests
